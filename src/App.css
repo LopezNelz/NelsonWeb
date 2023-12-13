@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* BUTTON */
+.navbar .nav-link.btn {
+  background-color: white; 
+  color: black; 
+}
+
+.navbar .nav-link.btn .text-dark {
+  color: black; 
+}
+
+/* BUTTON ANIMATION*/
+.navbar .nav-link.btn {
+  background-color: white; 
+  color: black; 
+  transition: background-color 0.3s; 
+}
+
+/* Estilo para el texto en los botones del encabezado */
+.navbar .nav-link.btn .text-dark {
+  color: black; /* Texto negro */
+}
+
+/* Estilo para la animación de los botones en hover */
+.navbar .nav-link.btn.btn-animation:hover {
+  background-color: rgb(54, 161, 227); 
+}
+
+/*Estilo para la animacion de la lista de botones de Personajes*/
+.navbar .nav-link.btn.btn-animation2:hover {
+  background-color: rgb(10, 237, 116); 
+}
+
+/*********Carrusel**********/
+.skill{
+  padding:0 0 25px 0;
+  position: relative;
+}
+/* posicionando el carrucel mas abajo del ultimo parrafo*/
+.skill-bx{
+  background: #151515;
+  border-radius: 20px;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 80px;
+}
+
+.skill-slider{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+/*posicion del texto debajo de la imagen*/
+.skill-slider .item img {
+  width: 70%;
+  margin: 0 auto 25px auto;
+}
+
+.background-image-left{
+  top: 29%;
+  position: absolute;
+  bottom: 0;
+  width: 400%;
+  z-index: -4;
+}
+
+/*estilo del titulo principal*/
+.tituloPrincipal{
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 80px;
+  font-family: Georgia;
+  color: rgb(69, 238, 32);
+  filter: brightness(150%);
+}
+
+/*estilo de la imagen principal*/
+.imgPrincipal{
+  width: 80%;
+}
+
+/*estilo para la caja donde estara un video*/
+.video-box {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-frame {
+  width: 100%;
+  height: auto;
+}
+
+/*Panel Pagina*/
+.Pagina {
+  color: #fff;
+  background-image: url("./images/Fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  /*min-height: 100vh;*/
+}
